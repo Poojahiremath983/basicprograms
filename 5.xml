@@ -1,0 +1,25 @@
+<?xml version = "1.0"?> 
+<?xml-stylesheet type = "text/css" href = "5.css" ?> 
+<student> 
+<usn> 2JH17CS036 </usn> 
+<name> POOJA HIREMATH</name> 
+<college> JCET </college> 
+<branch> CSE</branch> 
+<yoj> 2017 </yoj> 
+<email> poojahiremath983@gmail.com </email> 
+ 
+<usn> 2jh17cs009</usn> 
+<name>anup</name> 
+<college> jcet </college> 
+<branch> CSE </branch> 
+<yoj> 2017 </yoj> 
+<email> anup.akalapur9@gmail.com </email> 
+ 
+<usn> 2jh17cs004 </usn> 
+<name>ajay</name> 
+<college> jcet </college> 
+<branch> CSE </branch> 
+<yoj> 2012</yoj> 
+<email> ajay@yahoo.com </email> 
+</student> 
+ 

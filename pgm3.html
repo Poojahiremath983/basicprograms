@@ -1,0 +1,26 @@
+<!DOCTYPE html> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+ 
+<script type="text/javascript">        
+myVar = setInterval(adjust, 100)         
+function adjust() {             
+    var text = document.getElementById('t');             
+    var fontSize = parseInt(text.style.fontSize)             
+    fontSize += 1;             
+    text.style.fontSize = fontSize + 'px';             
+    if(fontSize == 50)             
+    {               
+        clearInterval(myVar);               
+        text.style.color = "blue";                
+        text.style.fontSize = '5px';               
+        text.innerHTML = "TEXT-SHRINKING";             
+    }         
+} 
+</script> 
+</head>
+<body> 
+<span id="t" style="font-size: 10px; color:red;"> TEXT-GROWING </span> 
+</body> 
+</html> 
+ 
